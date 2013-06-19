@@ -24,11 +24,12 @@ def shuffle
     last_group = groups.last
     groups[-2] = groups[-2] | last_group
     groups.pop
+  end
+
     puts "Here are your #{size} groups"
     groups.each do |g|
       p g
     end
-end
 end
 
 shuffle
