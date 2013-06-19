@@ -9,8 +9,7 @@ end
 
 menu
 
-NAMES = ['CJ', 'Stewart', 'James P.','Luke','Adam','Britney','Michael','Anna','Julien','Andrea','Salmon',
-                'Ankoor','Murad','James E.','Jarkyn','Aya','Will','Emille']
+NAMES = ['CJ', 'Stewart', 'James P.','Luke','Adam','Britney','Michael','Anna','Julien','Andrea','Salmon', 'Ankoor','Murad','James E.','Jarkyn','Aya','Will','Emille']
 
 def shuffle
   groups = []
@@ -26,7 +25,7 @@ def shuffle
     groups.pop
   end
 
-    puts "Here are your #{size} groups"
+    puts "Here are your groups of  #{size}"
     groups.each do |g|
       p g
     end
